@@ -22,7 +22,7 @@ This project is an Instagram clone created using HTML, CSS, and JavaScript. It f
 - **Profile Management:** Update your profile picture, bio, and view saved posts.
 
 ## Screenrecording 📸
-*(Insert link to a demo video showcasing the Instagram clone in action)*
+*(https://youtu.be/3JsA6HOP5jA)*
 
 ## Usage 🚀
 
