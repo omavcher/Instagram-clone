@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+   }
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: palevioletred; */
+}
+#login-box{
+    width: 365px;
+    height: 480px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#insta-long-img{
+    width: 175px;
+    height: 55px;
+     margin-top: 40px;
+}
+#insta-long-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#user-pass-input{
+    width: 260px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#user-pass-input input{
+    width: 100%;
+    height: 32px; 
+    border-radius: 3.5px;
+}
+#user-pass-input input::placeholder {
+    font-size: 11px;
+    font-weight:400 ;
+    margin-top: 10px;
+  }
+  #user-pass-input input[type="text"] , input[type="password"] {
+    background-color: #fafafa;
+    border: 0.5px solid rgba(0, 0, 0, 0.251);
+    padding-left: 10px;
+    margin-top: 4px;
+}
+#submit{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #4cb5f9;
+    border-radius: 5px;
+    border: 0;
+}
+.orsec{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#or-line{
+    width: 110px;
+    height: 0.5px;
+    background-color: rgba(0, 0, 0, 0.162);
+}
+.orsec p{
+    font-size: 12.5px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.548);
+}
+.passwordincorrect{
+    width: 300px;
+    height: 80px;
+    /* ************************************************************************************************************************************************************************************************************************************* */
+}
+.passwordincorrect p{
+    margin-top: 12px;
+    color: red;
+    margin-left: 15px;
+display: none;
+}
+.facebooklogin{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.facebooklogin img {
+    width: 16px;
+    height: 16px;
+}
+.facebooklogin p a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #385185;
+    text-decoration: none;
+}
+.forgtpass{
+    width: 150px;
+    height: 15px;
+    cursor: pointer;
+}
+.forgtpass p a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #385185;
+}
+.dontaccount{
+    width: 365px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.dontaccount a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0798f6;
+    margin-left: 1.5px;
+}
+#getapp{
+    width: 95px;
+    height: 30px;
+    margin-top: 10px;
+}
+.getiton{
+    width: 300px;
+    height: 45px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.getiton img{
+    height: 100%;
+    width: 47%;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-atags{
+    margin-top: 25px;
+    width: 1050px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-atags a{
+    text-decoration: none;
+    font-size: 15.5px;
+    color: rgba(0, 0, 0, 0.466);
+    font-weight: 500;
+}
+.footer-ending{
+    width: 600px;
+    height: 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.footer-ending select{
+    height: 100%;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+footer p{
+margin-left: 10px;
+color: rgba(0, 0, 0, 0.559);
+font-size: 14px;
+}
+@media screen and (max-width: 768px){
+    .footer-atags{
+        display: none;
+    }
+}
